@@ -27,7 +27,7 @@ Semanttinen hakusovellus käytetyille huonekaluille, joka hyödyntää OpenAI:n 
 1. Kloonaa repositorio:
 
 ```bash
-git clone https://github.com/laguagu/tavaratrading-embeddings
+git clone https://github.com/Alya-projects/kalustehaku
 cd tavaratrading-embeddings
 ```
 
@@ -51,7 +51,9 @@ Supabase ympäristömuuttujat saat haettua kun olet luonut projektin [Supabase](
 
 Tarvittavat ympäristömuuttujat Supabasen "Project Settings" valikosta:
 
-- `DATABASE_URL`: Löytyy kohdasta "Database" -> "Connection string"
+- `DATABASE_URL`: 
+  - Löytyy kohdasta "Database" -> "Connection string"
+  - **Huom!** Vaihtoehtoisesti uudemmassa käyttöliittymässä: Klikkaa "Connection" -> "App Frameworks" -> "Next.js"
 - `SUPABASE_PRIVATE_KEY` / `NEXT_PUBLIC_SUPABASE_ANON_KEY`: Löytyy kohdasta "API" -> "anon/public"
 - `NEXT_PUBLIC_SUPABASE_URL`: Löytyy kohdasta "API" -> "Project URL"
 
